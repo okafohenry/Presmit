@@ -6,6 +6,10 @@
     nav .nav-links {
         display: none;
     }
+    nav .nav-links-mobile {
+        display: block;
+        margin-right: 30px;
+    }
 }
 
 
