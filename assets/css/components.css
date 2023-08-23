@@ -14,15 +14,18 @@ main{
 
 
 nav {
-    padding: 25px 100px;
+    padding: 25px 0px;
 }
 nav .nav-links-mobile {
    display: none;
 }
+nav .logo{
+    margin-left: 100px;
+}
 nav .nav-links {
     width: 30%;
     justify-content: space-between;
-    margin-right: 200px;
+    margin-right: 150px;
     font-size: 14px;
 }
 nav .nav-links ul {
@@ -171,10 +174,11 @@ nav .nav-links .login-btn a {
 
 
 .section-3 {
+    position: relative;
     width: 100%;
     padding: 100px 0;
     margin: 100px auto 100px auto;
-    border-radius: 7px;
+    border-radius: 9px;
     text-align: center;
     /* background: rgba(128, 0, 128, 0.413); */
     background-image: url('../imgs/bg-sub.png');
@@ -183,9 +187,15 @@ nav .nav-links .login-btn a {
 .section-3 h2 {
     font-size: 35px;
     line-height: 45px;
-    width: 45%;
+    width: 50%;
     margin: 0 auto;
     color: white;
+    position: relative;
+}
+.section-3 form {
+    display: flex;
+    column-gap: 2rem;
+    position: relative;
 }
 .section-3 input {
     margin-top: 50px;
