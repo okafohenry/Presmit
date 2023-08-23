@@ -1,0 +1,37 @@
+@media only screen and (max-width: 1000px) {
+    nav {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    nav .nav-links {
+        display: none;
+    }
+}
+
+
+@media only screen and  (max-width: 800px) {
+    main{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .section-2 {
+        width: 100%;
+    }
+    .section-2 .news-card {
+        margin: 0 auto;
+    }
+}
+
+@media only screen and  (max-width: 551px) {
+    .section-1 .article-img {
+        height: 336px;
+    }
+    .section-1 .article-text h2{
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 35px;
+        line-height: 60px;
+        font-weight: lighter;
+    }
+}
