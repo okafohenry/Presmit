@@ -67,6 +67,7 @@ nav .nav-links .login-btn a {
 }
 .section-1 .sub-container{
     column-gap: 7rem;
+    justify-content: center;
 }
 .section-1 .article-img {
     height: 386px;
@@ -162,6 +163,7 @@ nav .nav-links .login-btn a {
     flex-wrap: wrap;
     column-gap: 55px;
     row-gap: 50px;
+    justify-content: center;
 }
 .news-card {
     padding: 10px;
@@ -225,9 +227,7 @@ footer{
     margin-top: 200px;
 }
 footer .bottom-logo {
-    min-width: 300px;
     width: 35%;
-    max-width: 35%;
 }
 footer .bottom-logo .footer-text-1 {
     line-height: 30px;
